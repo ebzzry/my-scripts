@@ -1,18 +1,16 @@
-(uiop:define-package
-    :scripts/apps
-    (:use
-     :cl
-     :fare-utils
-     :uiop
-     :inferior-shell
-     :cl-scripting
-     :cl-launch/dispatch)
+(uiop:define-package #:scripts/apps
+    (:use #:cl
+          #:fare-utils
+          #:uiop
+          #:inferior-shell
+          #:cl-scripting
+          #:cl-launch/dispatch)
   (:export #:chrome
            #:kill-chrome
            #:stop-chrome
            #:continue-chrome))
 
-(in-package :scripts/apps)
+(in-package #:scripts/apps)
 
 (exporting-definitions
  (defun chrome (&rest args)
