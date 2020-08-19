@@ -1,4 +1,5 @@
 README
 ======
 
-Source code for https://ebzzry.io/en/scripting-lisp
+Source code for https://ebzzry.io/en/script-lisp/
+
